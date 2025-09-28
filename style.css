@@ -1,0 +1,107 @@
+body {
+    background-color: aliceblue;
+}
+
+header {
+    background-color: rgb(136, 182, 212);
+}
+
+footer {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: rgb(136, 182, 212);
+    position: relative;
+    height: 150px;
+}
+
+.menu{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: rgb(136, 182, 212);
+    position: relative;
+    height: 100px;
+}
+
+
+.menu_rectangle{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.index_content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    padding-top: 0;
+}
+
+.index_block{
+    display: grid;
+    flex: 1;
+    height: 400px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 3px solid rgb(136, 182, 212);
+    background-color: rgb(219, 234, 242);
+}
+
+.intro{
+    text-align: center;
+    font-size: 20px;
+    margin-left: 150px;
+    margin-right: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+
+.btn {
+      margin: 10px;
+      margin-right: 30px;
+      margin-bottom: 5px;
+      font-family: "Noto Sans TC", sans-serif;
+      font-weight: bold;
+      background-color: rgb(136, 182, 212);
+      color: white;
+      background-size: 300% 300%;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      animation: gradientMove 6s ease infinite;
+      width: 150px;
+      height: 40px;
+      font-size: 18px;
+    }
+    .btn:hover {
+      transform: translateY(-3px) scale(1.05);
+      box-shadow: 0 10px 30px rgb(136, 182, 212);
+    }
+    .btn:active {
+      transform: translateY(0) scale(0.98);
+      box-shadow: 0 4px 12px rgb(136, 182, 212);
+    }
+

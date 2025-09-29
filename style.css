@@ -100,8 +100,5 @@ footer {
       transform: translateY(-3px) scale(1.05);
       box-shadow: 0 10px 30px rgb(136, 182, 212);
     }
-    .btn:active {
-      transform: translateY(0) scale(0.98);
-      box-shadow: 0 4px 12px rgb(136, 182, 212);
-    }
+
 
